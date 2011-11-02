@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="atlas.css">
+    <div id="b" class="brownie_idle_1-gif" style="border: solid 1px black"></div>
+    <script>
+      var b = document.getElementById('b');
+      var i = 1;
+      setInterval('if(++i>46) i = 1;b.className = "brownie_idle_" + i + "-gif";', 50);
+    </script>
+</html>

@@ -1,0 +1,1 @@
+This is a short python script that takes a folder of images and generates a texture atlas from it. The images will be cropped to their non transparent bounding boxes. The script generates a CSS file and JSON file that can be used together with the texture atlas as well as an illustrative SVG/animation showing how the texture atlas is created.
