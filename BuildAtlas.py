@@ -1,11 +1,18 @@
 import sys
 import os
 import Image
+import ImageDraw
 import math
 
+# Configurations you need to set. Only use borders if you ever do filtering on your sprites. And then you should
+# probably set it to transparent or duplicate the edges depending on your use case. Using solid red now to
+# make it clear they're there.
 folder = './brownie'
-images = []
 atlasBaseName = 'atlas'
+useBorder = False
+borderColor = 'red'
+
+images = []
 
 # A source image structure that loads the image and stores the
 # extents. It will also get the destination rect in the atlas written to it.
@@ -27,7 +34,10 @@ class SourceImage:
     self.img = self.img.crop(bbox)
     self.img.load()
     self.offset = (bbox[0], bbox[1])
-    self.rect = Rect(0,0, self.img.size[0]-1, self.img.size[1]-1)    
+    self.rect = Rect(0,0, self.img.size[0]-1, self.img.size[1]-1)
+    if useBorder:
+      self.rect.xmax += 2
+      self.rect.ymax += 2
 
 
 # A simple rect class using inclusive coordinates.
@@ -141,10 +151,24 @@ def writeSVG(images, atlasW, atlasH):
 
 def writeAtlas(images, atlasW, atlasH):
   atlasImg = Image.new('RGBA', [atlasW, atlasH])
-  for i in images:
-    atlasImg.paste(i.img, [int(i.img.destRect.xmin), int(i.img.destRect.ymin), int(i.img.destRect.xmax + 1), int(i.img.destRect.ymax + 1)])
+  if useBorder:
+    draw = ImageDraw.Draw(atlasImg)
+    draw.rectangle((0, 0, atlasW, atlasH), fill=borderColor)
+    for i in images:
+      atlasImg.paste(i.img, [int(i.img.destRect.xmin + 1), int(i.img.destRect.ymin + 1), int(i.img.destRect.xmax), int(i.img.destRect.ymax)])
+  else:
+    for i in images:
+      atlasImg.paste(i.img, [int(i.img.destRect.xmin), int(i.img.destRect.ymin), int(i.img.destRect.xmax + 1), int(i.img.destRect.ymax + 1)])
   atlasImg.save(atlasBaseName + '.png')
   atlasImg = None
+
+# Remove one pixel on each side of the images before dumping the CSS and JSON info.
+def removeBorders(images):
+  for i in images:
+    i.img.destRect.xmin += 1
+    i.img.destRect.ymin += 1
+    i.img.destRect.xmax -= 1
+    i.img.destRect.ymax -= 1
 
 def writeCSS(images, atlasW, atlasH):
   css = open(atlasBaseName + '.css', 'w')
@@ -236,6 +260,9 @@ atlasH = int(atlasH+1)
 print('AtlasDimensions: ' + str(atlasW) + 'x' + str(atlasH) + '  :  ' + str(int(100.0 * (atlasW * atlasH)/totalAreaUncropped)) + '% of original')
 
 writeAtlas(images, atlasW, atlasH)
+# Remove the borders from the sizes before we dumt the CSS and JSON.
+if useBorder:
+  removeBorders(images)
 writeCSS(images, atlasW, atlasH)
 writeSVG(images, atlasW, atlasH)
 writeJSON(images, atlasW, atlasH)
