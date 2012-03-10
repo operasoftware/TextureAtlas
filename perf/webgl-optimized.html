@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+	<!--
+	A simple test that shows that the greater flexibility of webgl allows you to
+	really optimize for specific use cases. @erikjmoller
+	-->
+	<canvas id='c' style='border: solid 1px black' width='1024' height='768'></canvas>
+	<p style='font-size:40px' id='r'></p>
+	<script id='vshader' type='x-shader'>
+		attribute vec2 pos;
+		attribute vec2 norm;
+		attribute float idx;
+		uniform vec2 canvasSize;
+		uniform vec2 atlasSize;
+		uniform vec2 offsets[46];
+		uniform vec4 rects[46];
+		uniform float frame;
+		varying vec2 texcoord;
+		void main() {
+			int f = int(mod(idx + frame, 46.0));
+			vec4 r = rects[f];
+			vec2 o = offsets[f];
+			gl_Position = vec4((pos + o) * 2.0 / canvasSize - vec2(1,1) + norm * 2.0 / canvasSize * vec2(r.z-r.x, r.w-r.y), 0, 1);
+			texcoord = vec2(r.x/atlasSize.x, 1.0-r.y/atlasSize.y ) + norm * (r.zw - r.xy) / atlasSize;
+		}
+	</script>
+	<script id='fshader' type='x-shader'>
+		precision mediump float;
+		uniform sampler2D tex;
+		varying vec2 texcoord;
+
+		void main() {
+			gl_FragColor = texture2D(tex, texcoord);
+		}
+	</script>
+	<script>
+		var numIterations = 100;
+		var numBrownies = 100000;
+		var numAnimFrames = 46;
+		var currFrame = 0;
+		var c = document.getElementById('c');
+		var r = document.getElementById('r');
+
+		function initTest() {
+			gl = c.getContext('experimental-webgl');
+
+			var vd = new Array(numBrownies * 6 * 5);
+			for (var i = 0; i < numBrownies; ++i) {
+				var stride = i * 6 * 5;
+				for (var j = 0; j < 6; ++j) {
+					vd[stride + j * 5 + 0] = brownie_pos[i].x;
+					vd[stride + j * 5 + 1] = brownie_pos[i].y;
+				}
+
+				vd[stride + 0 * 5 + 2 + 0] =  0;
+				vd[stride + 0 * 5 + 2 + 1] =  0;
+				vd[stride + 1 * 5 + 2 + 0] =  0;
+				vd[stride + 1 * 5 + 2 + 1] = -1;
+				vd[stride + 2 * 5 + 2 + 0] =  1;
+				vd[stride + 2 * 5 + 2 + 1] =  0;
+				vd[stride + 3 * 5 + 2 + 0] =  0;
+				vd[stride + 3 * 5 + 2 + 1] = -1;
+				vd[stride + 4 * 5 + 2 + 0] =  1;
+				vd[stride + 4 * 5 + 2 + 1] = -1;
+				vd[stride + 5 * 5 + 2 + 0] =  1;
+				vd[stride + 5 * 5 + 2 + 1] =  0;
+
+				vd[stride + 0 * 5 + 4] = i;
+				vd[stride + 1 * 5 + 4] = i;
+				vd[stride + 2 * 5 + 4] = i;
+				vd[stride + 3 * 5 + 4] = i;
+				vd[stride + 4 * 5 + 4] = i;
+				vd[stride + 5 * 5 + 4] = i;
+			}
+
+			var vertexBuffer = gl.createBuffer();
+			gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+			gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vd), gl.STATIC_DRAW);
+
+			var rects = new Array(numAnimFrames*4);
+			var offsets = new Array(numAnimFrames*2);
+			for (var j = 0; j < numAnimFrames; ++j) {
+				var bi = brownie_atlas.images['idle'+j+'-png'];
+				for (var k = 0; k < 4; ++k)
+					rects[j * 4 + k] = bi.rect[k];
+				offsets[j*2+0] = bi.offset[0];
+				offsets[j*2+1] = -bi.offset[1];
+			}
+
+			texture = gl.createTexture();
+			gl.activeTexture(gl.TEXTURE0);
+			gl.bindTexture(gl.TEXTURE_2D, texture);
+			gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+			gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, true);
+			gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, brownie_atlas.image);
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+			gl.enable(gl.BLEND);
+			gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
+
+			var vs = document.getElementById('vshader').textContent;
+			var fs = document.getElementById('fshader').textContent;
+			program = createProgram(vs,fs);
+			gl.useProgram(program);
+			program.pos = gl.getAttribLocation(program, 'pos');
+			program.norm = gl.getAttribLocation(program, 'norm');
+			program.idx = gl.getAttribLocation(program, 'idx');
+			program.tex = gl.getUniformLocation(program, 'tex');
+			program.canvasSize = gl.getUniformLocation(program, 'canvasSize');
+			program.atlasSize = gl.getUniformLocation(program, 'atlasSize');
+			program.rects = gl.getUniformLocation(program, 'rects');
+			program.offsets = gl.getUniformLocation(program, 'offsets');
+			program.frame = gl.getUniformLocation(program, 'frame');
+			gl.enableVertexAttribArray(program.pos);
+			gl.enableVertexAttribArray(program.norm);
+			gl.enableVertexAttribArray(program.idx);
+			gl.vertexAttribPointer(program.pos, 2, gl.FLOAT, false, 5 * 4, 0 * 4);
+			gl.vertexAttribPointer(program.norm, 2, gl.FLOAT, false, 5 * 4, 2 * 4);
+			gl.vertexAttribPointer(program.idx, 1, gl.FLOAT, false, 5 * 4, 4 * 4);
+			gl.uniform1i(program.tex, 0);
+			gl.uniform2f(program.canvasSize, c.width, c.height);
+			gl.uniform2f(program.atlasSize, brownie_atlas.image.width, brownie_atlas.image.height);
+			gl.uniform4fv(program.rects, rects);
+			gl.uniform2fv(program.offsets, offsets);
+			gl.clearColor(1,1,1,1);
+
+			r.innerHTML += 'testing optimized webgl and atlas...';
+			start = new Date().getTime();
+			drawFrame();
+		}
+
+		function drawFrame() {
+			gl.clear(gl.COLOR_BUFFER_BIT);
+			gl.uniform1f(program.frame, currFrame);
+			gl.drawArrays(gl.TRIANGLES, 0, 6 * numBrownies);
+			if (++currFrame < numIterations) {
+				setTimeout(drawFrame,0);
+			} else {
+				ms = new Date().getTime() - start;
+				r.innerHTML += ms + 'ms<br>';
+			}
+		}
+
+		window.onerror = function(msg, url, lineno) {
+			alert(url + '(' + lineno + '): ' + msg);
+		}
+
+		function createShader(str, type) {
+			var shader = gl.createShader(type);
+			gl.shaderSource(shader, str);
+			gl.compileShader(shader);
+			if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+				throw gl.getShaderInfoLog(shader);
+			}
+			return shader;
+		}
+
+		function createProgram(vstr, fstr) {
+			var program = gl.createProgram();
+			var vshader = createShader(vstr, gl.VERTEX_SHADER);
+			var fshader = createShader(fstr, gl.FRAGMENT_SHADER);
+			gl.attachShader(program, vshader);
+			gl.attachShader(program, fshader);
+			gl.linkProgram(program);
+			if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+				throw gl.getProgramInfoLog(program);
+			}
+			return program;
+		}
+
+		brownie_pos = new Array(numBrownies);
+		for (var k = 0; k < numBrownies; ++k) {
+			brownie_pos[k] = { x : 10 + Math.random() * (c.width - 50), y : 70 + Math.random() * (c.height - 80) };
+		}
+
+		var request = new XMLHttpRequest();
+		request.onreadystatechange = function() {
+			if (request.readyState == 1) {
+				request.overrideMimeType('application/json');
+				request.send();
+			} else if (request.readyState == 4) {
+				brownie_atlas = JSON.parse(request.responseText);
+
+				brownie_atlas.image = new Image();
+				brownie_atlas.image.onload = initTest;
+				brownie_atlas.image.src = brownie_atlas.atlas;
+			}
+		};
+		request.open('GET', 'atlas.json', true);
+	</script>
+</html>

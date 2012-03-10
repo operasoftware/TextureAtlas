@@ -29,6 +29,8 @@ class SourceImage:
     # Grab the bounding box from the alpha channel.
     alpha = self.img.split()[3]
     bbox = alpha.getbbox()
+    if bbox == None:
+      bbox = [0,0,1,1];
     alpha = None
     # Crop it and get the new extents.
     self.img = self.img.crop(bbox)
@@ -187,7 +189,7 @@ def writeCSS(images, atlasW, atlasH):
 
 def writeJSON(images, atlasW, atlasH):
   json = open(atlasBaseName + '.json', 'w')
-  json.write('{\n  "atlas" : "' + atlasBaseName + '.png",\n  "images" : [\n');
+  json.write('{\n  "atlas" : "' + atlasBaseName + '.png",\n  "images" : {\n');
   for i in images:
     json.write('    "' + i.fileName.replace('.', '-') + '" : {\n')
     json.write('      "rect" : [' + str(i.img.destRect.xmin) + ', ' + str(i.img.destRect.ymin) + ', ' + str(i.img.destRect.xmax) + ', ' + str(i.img.destRect.ymax) + '],\n')
@@ -196,20 +198,28 @@ def writeJSON(images, atlasW, atlasH):
     if i != images[-1]:
       json.write(',')
     json.write('\n')
-  json.write('  ]\n}')
+  json.write('  }\n}')
   json.close()
 
-  
-# Get a list of all the files in the source folder.
-dirList = os.listdir(folder);
-origIndex = 0
-for fileName in dirList:
-  if fileName[0] == '.':
-    continue
-  # Create source image structs and give them a unique index.
-  images.append(SourceImage(folder, fileName, origIndex))
-  origIndex = origIndex + 1
-  
+originalIndex = 0
+
+def addFolder(folder):
+  global originalIndex
+  folderList = os.listdir(folder);
+  for folderName in folderList:
+    if folderName[0] == '.':
+      continue
+    fullPath = folder + '/' + folderName
+    if os.path.isdir(fullPath) == True:
+      addFolder(fullPath)
+    else:
+      # Create source image structs and give them a unique index.
+      print(fullPath)
+      images.append(SourceImage(folder, folderName, originalIndex))
+      originalIndex = originalIndex + 1
+
+addFolder(folder)
+
 # Sort the source images using the insert heuristic.
 images.sort(None, maxExtent, True)
 

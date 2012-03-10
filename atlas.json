@@ -1,525 +1,525 @@
 {
   "atlas" : "atlas.png",
-  "images" : [
-    "brownie_dashleft_8-gif" : {
+  "images" : {
+    "dashleft7-png" : {
       "rect" : [0, 0, 51, 27],
       "offset" : [19, 4],
       "pad": [ 57, 0]
     },
-    "brownie_dashright_8-gif" : {
+    "dashright7-png" : {
       "rect" : [52, 0, 103, 27],
       "offset" : [57, 4],
       "pad": [ 19, 0]
     },
-    "brownie_dashright_7-gif" : {
+    "dashright6-png" : {
       "rect" : [0, 28, 34, 58],
       "offset" : [12, 1],
       "pad": [ 81, 0]
     },
-    "brownie_dashleft_7-gif" : {
-      "rect" : [0, 59, 32, 88],
-      "offset" : [82, 2],
+    "dashleft6-png" : {
+      "rect" : [0, 59, 32, 89],
+      "offset" : [82, 1],
       "pad": [ 13, 0]
     },
-    "brownie_dashleft_1-gif" : {
-      "rect" : [0, 89, 17, 120],
-      "offset" : [108, 0],
-      "pad": [ 2, 0]
-    },
-    "brownie_dashleft_2-gif" : {
-      "rect" : [0, 121, 17, 152],
-      "offset" : [108, 0],
-      "pad": [ 2, 0]
-    },
-    "brownie_dashleft_3-gif" : {
-      "rect" : [18, 89, 34, 120],
-      "offset" : [109, 0],
-      "pad": [ 2, 0]
-    },
-    "brownie_dashleft_4-gif" : {
-      "rect" : [18, 121, 34, 152],
-      "offset" : [109, 0],
-      "pad": [ 2, 0]
-    },
-    "brownie_dashleft_5-gif" : {
-      "rect" : [0, 153, 16, 184],
-      "offset" : [109, 0],
-      "pad": [ 2, 0]
-    },
-    "brownie_dashleft_6-gif" : {
-      "rect" : [17, 153, 33, 184],
-      "offset" : [108, 0],
-      "pad": [ 3, 0]
-    },
-    "brownie_dashright_1-gif" : {
-      "rect" : [0, 185, 15, 216],
-      "offset" : [3, 0],
-      "pad": [ 109, 0]
-    },
-    "brownie_dashright_2-gif" : {
-      "rect" : [16, 185, 32, 216],
-      "offset" : [2, 0],
-      "pad": [ 109, 0]
-    },
-    "brownie_dashright_3-gif" : {
-      "rect" : [0, 217, 16, 248],
-      "offset" : [2, 0],
-      "pad": [ 109, 0]
-    },
-    "brownie_dashright_4-gif" : {
-      "rect" : [17, 217, 33, 248],
-      "offset" : [2, 0],
-      "pad": [ 109, 0]
-    },
-    "brownie_dashright_5-gif" : {
-      "rect" : [35, 28, 51, 59],
-      "offset" : [2, 0],
-      "pad": [ 109, 0]
-    },
-    "brownie_dashright_6-gif" : {
-      "rect" : [35, 60, 51, 91],
-      "offset" : [3, 0],
-      "pad": [ 108, 0]
-    },
-    "brownie_idle_21-gif" : {
-      "rect" : [52, 28, 76, 59],
+    "idle20-png" : {
+      "rect" : [0, 90, 24, 122],
       "offset" : [1, 18],
-      "pad": [ 6, 14]
+      "pad": [ 6, 13]
     },
-    "brownie_idle_22-gif" : {
-      "rect" : [77, 28, 100, 59],
-      "offset" : [2, 25],
+    "idle21-png" : {
+      "rect" : [0, 123, 23, 155],
+      "offset" : [2, 24],
       "pad": [ 6, 7]
     },
-    "brownie_idle_23-gif" : {
-      "rect" : [101, 28, 124, 59],
+    "idle22-png" : {
+      "rect" : [0, 156, 24, 188],
       "offset" : [3, 31],
-      "pad": [ 5, 1]
+      "pad": [ 4, 0]
     },
-    "brownie_idle_1-gif" : {
-      "rect" : [125, 28, 148, 57],
-      "offset" : [3, 34],
+    "dashleft0-png" : {
+      "rect" : [0, 189, 17, 220],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashleft1-png" : {
+      "rect" : [0, 221, 17, 252],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashleft2-png" : {
+      "rect" : [35, 28, 52, 59],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashleft3-png" : {
+      "rect" : [35, 60, 52, 91],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashleft4-png" : {
+      "rect" : [35, 92, 52, 123],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashleft5-png" : {
+      "rect" : [35, 124, 52, 155],
+      "offset" : [108, 0],
+      "pad": [ 2, 0]
+    },
+    "dashright0-png" : {
+      "rect" : [35, 156, 52, 187],
+      "offset" : [2, 0],
+      "pad": [ 108, 0]
+    },
+    "dashright1-png" : {
+      "rect" : [35, 188, 52, 219],
+      "offset" : [2, 0],
+      "pad": [ 108, 0]
+    },
+    "dashright2-png" : {
+      "rect" : [35, 220, 52, 251],
+      "offset" : [2, 0],
+      "pad": [ 108, 0]
+    },
+    "dashright3-png" : {
+      "rect" : [18, 189, 34, 220],
+      "offset" : [2, 0],
+      "pad": [ 109, 0]
+    },
+    "dashright4-png" : {
+      "rect" : [18, 221, 34, 252],
+      "offset" : [2, 0],
+      "pad": [ 109, 0]
+    },
+    "dashright5-png" : {
+      "rect" : [53, 28, 70, 59],
+      "offset" : [2, 0],
+      "pad": [ 108, 0]
+    },
+    "idle14-png" : {
+      "rect" : [71, 28, 91, 58],
+      "offset" : [3, 0],
+      "pad": [ 8, 33]
+    },
+    "idle23-png" : {
+      "rect" : [92, 28, 115, 58],
+      "offset" : [3, 33],
       "pad": [ 5, 0]
     },
-    "brownie_idle_14-gif" : {
-      "rect" : [149, 28, 168, 57],
-      "offset" : [4, 0],
-      "pad": [ 8, 34]
+    "idle44-png" : {
+      "rect" : [116, 28, 140, 58],
+      "offset" : [3, 30],
+      "pad": [ 4, 3]
     },
-    "brownie_idle_15-gif" : {
-      "rect" : [169, 28, 188, 57],
-      "offset" : [3, 1],
-      "pad": [ 9, 33]
+    "escapeleft11-png" : {
+      "rect" : [141, 28, 157, 57],
+      "offset" : [7, 0],
+      "pad": [ 8, 2]
     },
-    "brownie_idle_2-gif" : {
-      "rect" : [189, 28, 213, 57],
+    "escapeleft12-png" : {
+      "rect" : [158, 28, 174, 57],
+      "offset" : [7, 0],
+      "pad": [ 8, 2]
+    },
+    "escapeleft16-png" : {
+      "rect" : [175, 28, 194, 57],
+      "offset" : [7, 2],
+      "pad": [ 5, 0]
+    },
+    "escaperight11-png" : {
+      "rect" : [195, 28, 209, 57],
+      "offset" : [9, 0],
+      "pad": [ 8, 2]
+    },
+    "escaperight12-png" : {
+      "rect" : [210, 28, 226, 57],
+      "offset" : [8, 0],
+      "pad": [ 7, 2]
+    },
+    "idle0-png" : {
+      "rect" : [227, 28, 251, 57],
+      "offset" : [2, 34],
+      "pad": [ 5, 0]
+    },
+    "idle1-png" : {
+      "rect" : [53, 60, 77, 89],
       "offset" : [3, 34],
       "pad": [ 4, 0]
     },
-    "brownie_idle_20-gif" : {
-      "rect" : [214, 28, 240, 57],
+    "idle13-png" : {
+      "rect" : [252, 28, 272, 57],
+      "offset" : [4, 0],
+      "pad": [ 7, 34]
+    },
+    "idle19-png" : {
+      "rect" : [78, 60, 104, 89],
       "offset" : [0, 13],
       "pad": [ 5, 21]
     },
-    "brownie_idle_24-gif" : {
-      "rect" : [241, 28, 264, 57],
-      "offset" : [3, 34],
-      "pad": [ 5, 0]
+    "idle30-png" : {
+      "rect" : [53, 90, 72, 119],
+      "offset" : [7, 7],
+      "pad": [ 5, 27]
     },
-    "brownie_idle_32-gif" : {
-      "rect" : [52, 60, 70, 89],
-      "offset" : [8, 5],
+    "idle31-png" : {
+      "rect" : [53, 120, 72, 149],
+      "offset" : [7, 5],
       "pad": [ 5, 29]
     },
-    "brownie_idle_43-gif" : {
-      "rect" : [71, 60, 94, 89],
-      "offset" : [6, 17],
+    "idle42-png" : {
+      "rect" : [53, 150, 77, 179],
+      "offset" : [5, 17],
       "pad": [ 2, 17]
     },
-    "brownie_idle_44-gif" : {
-      "rect" : [95, 60, 118, 89],
+    "idle43-png" : {
+      "rect" : [53, 180, 76, 209],
       "offset" : [5, 24],
       "pad": [ 3, 10]
     },
-    "brownie_idle_45-gif" : {
-      "rect" : [119, 60, 143, 89],
-      "offset" : [3, 30],
-      "pad": [ 4, 4]
-    },
-    "brownie_idle_46-gif" : {
-      "rect" : [144, 60, 167, 89],
-      "offset" : [3, 34],
+    "idle45-png" : {
+      "rect" : [53, 210, 77, 239],
+      "offset" : [2, 34],
       "pad": [ 5, 0]
     },
-    "brownie_idle_9-gif" : {
-      "rect" : [168, 60, 187, 89],
-      "offset" : [4, 6],
-      "pad": [ 8, 28]
+    "idle7-png" : {
+      "rect" : [53, 240, 75, 269],
+      "offset" : [3, 9],
+      "pad": [ 6, 25]
     },
-    "brownie_escapeleft_11-gif" : {
-      "rect" : [35, 92, 50, 120],
+    "idle8-png" : {
+      "rect" : [105, 60, 125, 89],
+      "offset" : [4, 6],
+      "pad": [ 7, 28]
+    },
+    "dashleft8-png" : {
+      "rect" : [126, 60, 151, 88],
+      "offset" : [0, 3],
+      "pad": [ 102, 0]
+    },
+    "escapeleft10-png" : {
+      "rect" : [152, 60, 167, 88],
       "offset" : [9, 1],
       "pad": [ 7, 2]
     },
-    "brownie_escapeleft_13-gif" : {
-      "rect" : [35, 121, 51, 149],
-      "offset" : [7, 1],
-      "pad": [ 8, 2]
+    "escapeleft13-png" : {
+      "rect" : [168, 60, 186, 88],
+      "offset" : [6, 1],
+      "pad": [ 7, 2]
     },
-    "brownie_escapeleft_16-gif" : {
-      "rect" : [52, 90, 70, 118],
-      "offset" : [7, 2],
+    "escapeleft15-png" : {
+      "rect" : [187, 60, 206, 88],
+      "offset" : [6, 2],
       "pad": [ 6, 1]
     },
-    "brownie_escapeleft_17-gif" : {
-      "rect" : [188, 60, 207, 88],
-      "offset" : [7, 2],
-      "pad": [ 5, 1]
-    },
-    "brownie_escapeleft_18-gif" : {
-      "rect" : [208, 60, 228, 88],
+    "escapeleft17-png" : {
+      "rect" : [207, 60, 227, 88],
       "offset" : [7, 3],
       "pad": [ 4, 0]
     },
-    "brownie_escapeleft_19-gif" : {
-      "rect" : [229, 60, 249, 88],
-      "offset" : [8, 3],
-      "pad": [ 3, 0]
+    "escapeleft18-png" : {
+      "rect" : [228, 60, 250, 88],
+      "offset" : [7, 3],
+      "pad": [ 2, 0]
     },
-    "brownie_escapeleft_20-gif" : {
-      "rect" : [71, 90, 92, 118],
+    "escapeleft19-png" : {
+      "rect" : [251, 60, 272, 88],
       "offset" : [8, 3],
       "pad": [ 2, 0]
     },
-    "brownie_escaperight_11-gif" : {
-      "rect" : [35, 150, 50, 178],
+    "escapeleft9-png" : {
+      "rect" : [78, 90, 96, 118],
+      "offset" : [9, 2],
+      "pad": [ 4, 1]
+    },
+    "escaperight10-png" : {
+      "rect" : [78, 119, 93, 147],
       "offset" : [7, 1],
       "pad": [ 9, 2]
     },
-    "brownie_escaperight_13-gif" : {
-      "rect" : [35, 179, 51, 207],
-      "offset" : [8, 1],
-      "pad": [ 7, 2]
+    "escaperight13-png" : {
+      "rect" : [78, 148, 96, 176],
+      "offset" : [7, 1],
+      "pad": [ 6, 2]
     },
-    "brownie_escaperight_16-gif" : {
-      "rect" : [52, 119, 70, 147],
+    "escaperight15-png" : {
+      "rect" : [97, 90, 116, 118],
       "offset" : [6, 2],
-      "pad": [ 7, 1]
+      "pad": [ 6, 1]
     },
-    "brownie_escaperight_17-gif" : {
-      "rect" : [250, 60, 269, 88],
+    "escaperight16-png" : {
+      "rect" : [97, 119, 116, 147],
       "offset" : [5, 2],
       "pad": [ 7, 1]
     },
-    "brownie_escaperight_18-gif" : {
-      "rect" : [71, 119, 91, 147],
+    "escaperight17-png" : {
+      "rect" : [117, 90, 137, 118],
       "offset" : [4, 3],
       "pad": [ 7, 0]
     },
-    "brownie_escaperight_19-gif" : {
-      "rect" : [71, 148, 91, 176],
+    "escaperight18-png" : {
+      "rect" : [138, 90, 159, 118],
       "offset" : [3, 3],
-      "pad": [ 8, 0]
+      "pad": [ 7, 0]
     },
-    "brownie_escaperight_20-gif" : {
-      "rect" : [71, 177, 92, 205],
+    "escaperight19-png" : {
+      "rect" : [160, 90, 181, 118],
       "offset" : [2, 3],
       "pad": [ 8, 0]
     },
-    "brownie_idle_41-gif" : {
-      "rect" : [93, 90, 118, 118],
-      "offset" : [6, 6],
+    "idle27-png" : {
+      "rect" : [182, 90, 206, 118],
+      "offset" : [4, 25],
+      "pad": [ 3, 10]
+    },
+    "idle28-png" : {
+      "rect" : [207, 90, 227, 118],
+      "offset" : [7, 18],
+      "pad": [ 4, 17]
+    },
+    "idle29-png" : {
+      "rect" : [78, 177, 96, 205],
+      "offset" : [8, 12],
+      "pad": [ 5, 23]
+    },
+    "idle32-png" : {
+      "rect" : [97, 148, 116, 176],
+      "offset" : [8, 3],
+      "pad": [ 4, 32]
+    },
+    "idle40-png" : {
+      "rect" : [228, 90, 254, 118],
+      "offset" : [5, 6],
       "pad": [ 0, 29]
     },
-    "brownie_idle_42-gif" : {
-      "rect" : [93, 119, 118, 147],
+    "idle41-png" : {
+      "rect" : [117, 119, 142, 147],
       "offset" : [5, 11],
       "pad": [ 1, 24]
     },
-    "brownie_idle_8-gif" : {
-      "rect" : [93, 148, 115, 176],
-      "offset" : [3, 9],
-      "pad": [ 6, 26]
+    "idle9-png" : {
+      "rect" : [117, 148, 138, 176],
+      "offset" : [1, 4],
+      "pad": [ 9, 31]
     },
-    "brownie_dashleft_9-gif" : {
+    "dashright8-png" : {
       "rect" : [104, 0, 129, 27],
-      "offset" : [0, 4],
-      "pad": [ 102, 0]
-    },
-    "brownie_dashright_9-gif" : {
-      "rect" : [130, 0, 155, 27],
       "offset" : [102, 4],
       "pad": [ 0, 0]
     },
-    "brownie_escapeleft_12-gif" : {
-      "rect" : [156, 0, 170, 27],
-      "offset" : [8, 1],
-      "pad": [ 9, 3]
+    "escapeleft14-png" : {
+      "rect" : [130, 0, 149, 27],
+      "offset" : [6, 2],
+      "pad": [ 6, 2]
     },
-    "brownie_escapeleft_14-gif" : {
-      "rect" : [171, 0, 187, 27],
-      "offset" : [7, 1],
-      "pad": [ 8, 3]
+    "escaperight0-png" : {
+      "rect" : [150, 0, 171, 27],
+      "offset" : [2, 3],
+      "pad": [ 8, 1]
     },
-    "brownie_escapeleft_15-gif" : {
-      "rect" : [188, 0, 205, 27],
-      "offset" : [7, 2],
-      "pad": [ 7, 2]
+    "escaperight14-png" : {
+      "rect" : [172, 0, 191, 27],
+      "offset" : [6, 2],
+      "pad": [ 6, 2]
     },
-    "brownie_escaperight_12-gif" : {
-      "rect" : [206, 0, 220, 27],
-      "offset" : [9, 1],
-      "pad": [ 8, 3]
+    "escaperight8-png" : {
+      "rect" : [192, 0, 213, 27],
+      "offset" : [2, 4],
+      "pad": [ 8, 0]
     },
-    "brownie_escaperight_14-gif" : {
-      "rect" : [221, 0, 237, 27],
-      "offset" : [8, 1],
-      "pad": [ 7, 3]
+    "idle18-png" : {
+      "rect" : [214, 0, 240, 27],
+      "offset" : [0, 9],
+      "pad": [ 5, 27]
     },
-    "brownie_escaperight_15-gif" : {
-      "rect" : [238, 0, 255, 27],
-      "offset" : [7, 2],
-      "pad": [ 7, 2]
-    },
-    "brownie_idle_10-gif" : {
-      "rect" : [71, 206, 92, 233],
-      "offset" : [1, 5],
-      "pad": [ 9, 31]
-    },
-    "brownie_idle_28-gif" : {
-      "rect" : [93, 177, 116, 204],
-      "offset" : [5, 25],
-      "pad": [ 3, 11]
-    },
-    "brownie_idle_29-gif" : {
-      "rect" : [71, 234, 91, 261],
-      "offset" : [7, 18],
-      "pad": [ 4, 18]
-    },
-    "brownie_idle_30-gif" : {
-      "rect" : [52, 148, 70, 175],
-      "offset" : [8, 12],
-      "pad": [ 5, 24]
-    },
-    "brownie_idle_31-gif" : {
-      "rect" : [52, 176, 70, 203],
-      "offset" : [8, 8],
-      "pad": [ 5, 28]
-    },
-    "brownie_idle_33-gif" : {
-      "rect" : [93, 205, 112, 232],
-      "offset" : [8, 4],
-      "pad": [ 4, 32]
-    },
-    "brownie_idle_5-gif" : {
-      "rect" : [93, 233, 116, 260],
+    "idle4-png" : {
+      "rect" : [241, 0, 264, 27],
       "offset" : [4, 29],
       "pad": [ 4, 7]
     },
-    "brownie_idle_6-gif" : {
-      "rect" : [119, 90, 142, 117],
-      "offset" : [4, 22],
+    "idle5-png" : {
+      "rect" : [117, 177, 141, 204],
+      "offset" : [3, 22],
       "pad": [ 4, 14]
     },
-    "brownie_idle_7-gif" : {
-      "rect" : [143, 90, 166, 117],
+    "idle6-png" : {
+      "rect" : [117, 205, 140, 232],
       "offset" : [4, 15],
       "pad": [ 4, 21]
     },
-    "brownie_escapeleft_1-gif" : {
-      "rect" : [167, 90, 187, 116],
-      "offset" : [9, 4],
+    "escapeleft0-png" : {
+      "rect" : [117, 233, 138, 259],
+      "offset" : [8, 4],
       "pad": [ 2, 1]
     },
-    "brownie_escapeleft_10-gif" : {
-      "rect" : [52, 204, 70, 230],
-      "offset" : [9, 3],
-      "pad": [ 4, 2]
-    },
-    "brownie_escapeleft_9-gif" : {
-      "rect" : [188, 90, 208, 116],
+    "escapeleft7-png" : {
+      "rect" : [78, 206, 96, 232],
       "offset" : [9, 4],
+      "pad": [ 4, 1]
+    },
+    "escapeleft8-png" : {
+      "rect" : [143, 119, 164, 145],
+      "offset" : [8, 4],
       "pad": [ 2, 1]
     },
-    "brownie_escaperight_1-gif" : {
-      "rect" : [209, 90, 229, 116],
-      "offset" : [2, 4],
-      "pad": [ 9, 1]
+    "escaperight7-png" : {
+      "rect" : [78, 233, 96, 259],
+      "offset" : [4, 5],
+      "pad": [ 9, 0]
     },
-    "brownie_escaperight_10-gif" : {
-      "rect" : [52, 231, 70, 257],
-      "offset" : [4, 3],
+    "escaperight9-png" : {
+      "rect" : [97, 177, 116, 203],
+      "offset" : [3, 3],
       "pad": [ 9, 2]
     },
-    "brownie_escaperight_9-gif" : {
-      "rect" : [230, 90, 250, 116],
-      "offset" : [2, 4],
-      "pad": [ 9, 1]
-    },
-    "brownie_idle_13-gif" : {
-      "rect" : [119, 118, 141, 144],
+    "idle12-png" : {
+      "rect" : [165, 119, 188, 145],
       "offset" : [4, 1],
-      "pad": [ 5, 36]
+      "pad": [ 4, 36]
     },
-    "brownie_idle_17-gif" : {
-      "rect" : [142, 118, 168, 143],
+    "idle15-png" : {
+      "rect" : [189, 119, 215, 144],
+      "offset" : [0, 3],
+      "pad": [ 5, 35]
+    },
+    "idle16-png" : {
+      "rect" : [216, 119, 242, 144],
       "offset" : [0, 4],
       "pad": [ 5, 34]
     },
-    "brownie_idle_18-gif" : {
-      "rect" : [169, 118, 195, 143],
-      "offset" : [0, 6],
+    "idle17-png" : {
+      "rect" : [243, 119, 269, 145],
+      "offset" : [0, 5],
       "pad": [ 5, 32]
     },
-    "brownie_idle_19-gif" : {
-      "rect" : [142, 144, 168, 170],
-      "offset" : [0, 9],
-      "pad": [ 5, 28]
+    "idle24-png" : {
+      "rect" : [143, 146, 166, 172],
+      "offset" : [3, 37],
+      "pad": [ 5, 0]
     },
-    "brownie_idle_27-gif" : {
-      "rect" : [119, 145, 141, 171],
-      "offset" : [5, 33],
+    "idle26-png" : {
+      "rect" : [143, 173, 166, 199],
+      "offset" : [4, 33],
       "pad": [ 4, 4]
     },
-    "brownie_idle_4-gif" : {
-      "rect" : [119, 172, 141, 198],
+    "idle3-png" : {
+      "rect" : [143, 200, 165, 226],
       "offset" : [4, 36],
       "pad": [ 5, 1]
     },
-    "brownie_escapeleft_2-gif" : {
-      "rect" : [119, 199, 141, 224],
+    "idle39-png" : {
+      "rect" : [167, 146, 192, 172],
+      "offset" : [6, 4],
+      "pad": [ 0, 33]
+    },
+    "escapeleft1-png" : {
+      "rect" : [143, 227, 165, 252],
       "offset" : [5, 4],
       "pad": [ 4, 2]
     },
-    "brownie_escapeleft_7-gif" : {
-      "rect" : [119, 225, 139, 250],
+    "escapeleft4-png" : {
+      "rect" : [193, 146, 218, 169],
+      "offset" : [1, 5],
+      "pad": [ 5, 3]
+    },
+    "escapeleft6-png" : {
+      "rect" : [255, 90, 275, 115],
       "offset" : [7, 5],
       "pad": [ 4, 1]
     },
-    "brownie_escapeleft_8-gif" : {
-      "rect" : [251, 90, 269, 115],
-      "offset" : [9, 5],
-      "pad": [ 4, 1]
-    },
-    "brownie_escaperight_2-gif" : {
-      "rect" : [196, 118, 218, 143],
+    "escaperight1-png" : {
+      "rect" : [219, 146, 241, 171],
       "offset" : [4, 4],
       "pad": [ 5, 2]
     },
-    "brownie_escaperight_7-gif" : {
-      "rect" : [219, 118, 239, 143],
-      "offset" : [4, 5],
+    "escaperight6-png" : {
+      "rect" : [242, 146, 263, 171],
+      "offset" : [3, 5],
       "pad": [ 7, 1]
     },
-    "brownie_escaperight_8-gif" : {
-      "rect" : [240, 118, 258, 143],
-      "offset" : [4, 5],
-      "pad": [ 9, 1]
-    },
-    "brownie_idle_11-gif" : {
-      "rect" : [142, 171, 166, 196],
+    "idle10-png" : {
+      "rect" : [167, 173, 191, 198],
       "offset" : [2, 4],
       "pad": [ 5, 34]
     },
-    "brownie_idle_12-gif" : {
-      "rect" : [142, 197, 167, 221],
+    "idle11-png" : {
+      "rect" : [192, 173, 217, 198],
       "offset" : [2, 3],
-      "pad": [ 4, 36]
+      "pad": [ 4, 35]
     },
-    "brownie_idle_16-gif" : {
-      "rect" : [142, 222, 167, 247],
-      "offset" : [1, 3],
-      "pad": [ 5, 35]
-    },
-    "brownie_idle_25-gif" : {
-      "rect" : [169, 144, 192, 169],
-      "offset" : [3, 38],
+    "idle2-png" : {
+      "rect" : [167, 199, 189, 224],
+      "offset" : [4, 38],
       "pad": [ 5, 0]
     },
-    "brownie_idle_26-gif" : {
-      "rect" : [193, 144, 216, 169],
+    "idle25-png" : {
+      "rect" : [167, 225, 190, 250],
       "offset" : [4, 38],
       "pad": [ 4, 0]
     },
-    "brownie_idle_38-gif" : {
-      "rect" : [217, 144, 241, 169],
+    "idle37-png" : {
+      "rect" : [218, 173, 243, 198],
+      "offset" : [5, 4],
+      "pad": [ 1, 34]
+    },
+    "idle38-png" : {
+      "rect" : [244, 173, 268, 198],
       "offset" : [6, 4],
       "pad": [ 1, 34]
     },
-    "brownie_idle_39-gif" : {
-      "rect" : [242, 144, 266, 169],
-      "offset" : [6, 4],
-      "pad": [ 1, 34]
-    },
-    "brownie_idle_40-gif" : {
-      "rect" : [169, 170, 194, 195],
-      "offset" : [6, 5],
-      "pad": [ 0, 33]
-    },
-    "brownie_escapeleft_5-gif" : {
-      "rect" : [169, 196, 193, 219],
-      "offset" : [1, 5],
+    "escapeleft2-png" : {
+      "rect" : [167, 251, 189, 275],
+      "offset" : [3, 4],
       "pad": [ 6, 3]
     },
-    "brownie_escapeleft_6-gif" : {
-      "rect" : [169, 220, 192, 244],
+    "escapeleft5-png" : {
+      "rect" : [192, 199, 216, 223],
       "offset" : [5, 5],
-      "pad": [ 3, 2]
+      "pad": [ 2, 2]
     },
-    "brownie_escaperight_5-gif" : {
-      "rect" : [169, 245, 193, 268],
+    "escaperight2-png" : {
+      "rect" : [192, 224, 213, 248],
+      "offset" : [6, 4],
+      "pad": [ 4, 3]
+    },
+    "escaperight4-png" : {
+      "rect" : [192, 249, 216, 272],
       "offset" : [6, 5],
       "pad": [ 1, 3]
     },
-    "brownie_escaperight_6-gif" : {
-      "rect" : [195, 170, 218, 194],
-      "offset" : [3, 5],
+    "escaperight5-png" : {
+      "rect" : [217, 199, 241, 223],
+      "offset" : [2, 5],
       "pad": [ 5, 2]
     },
-    "brownie_idle_3-gif" : {
-      "rect" : [219, 170, 241, 194],
-      "offset" : [4, 39],
-      "pad": [ 5, 0]
-    },
-    "brownie_idle_34-gif" : {
-      "rect" : [242, 170, 265, 194],
-      "offset" : [7, 4],
+    "idle33-png" : {
+      "rect" : [242, 199, 266, 223],
+      "offset" : [6, 4],
       "pad": [ 1, 35]
     },
-    "brownie_idle_35-gif" : {
-      "rect" : [195, 195, 219, 218],
+    "idle34-png" : {
+      "rect" : [217, 224, 241, 247],
       "offset" : [7, 4],
       "pad": [ 0, 36]
     },
-    "brownie_idle_36-gif" : {
-      "rect" : [220, 195, 244, 217],
+    "idle35-png" : {
+      "rect" : [0, 253, 24, 275],
       "offset" : [7, 5],
       "pad": [ 0, 36]
     },
-    "brownie_escapeleft_3-gif" : {
-      "rect" : [245, 195, 266, 217],
-      "offset" : [4, 5],
-      "pad": [ 6, 4]
-    },
-    "brownie_escapeleft_4-gif" : {
-      "rect" : [195, 219, 217, 241],
+    "escapeleft3-png" : {
+      "rect" : [143, 253, 166, 275],
       "offset" : [3, 5],
-      "pad": [ 6, 4]
+      "pad": [ 5, 4]
     },
-    "brownie_escaperight_3-gif" : {
-      "rect" : [195, 242, 216, 264],
-      "offset" : [6, 5],
-      "pad": [ 4, 4]
-    },
-    "brownie_escaperight_4-gif" : {
-      "rect" : [218, 219, 240, 241],
+    "escaperight3-png" : {
+      "rect" : [217, 248, 239, 270],
       "offset" : [6, 5],
       "pad": [ 3, 4]
     },
-    "brownie_idle_37-gif" : {
-      "rect" : [218, 242, 239, 264],
+    "idle36-png" : {
+      "rect" : [242, 224, 263, 246],
       "offset" : [10, 6],
       "pad": [ 0, 35]
     }
-  ]
+  }
 }

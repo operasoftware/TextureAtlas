@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<!--
+	A simple canvas test that tests the performance gain of using an atlas
+	compared to separate images. @erikjmoller
+	-->
+	<canvas id='c' style='border: solid 1px black' width='1024' height='768'></canvas>
+	<p style='font-size:40px' id='r'></p>
+	<script>
+		var numIterations = 100;
+		var numBrownies = 10000;
+		var numAnimFrames = 46;
+		var imagesLeft = numAnimFrames + 1;
+		var c = document.getElementById('c');
+		var r = document.getElementById('r');
+		var ctx = c.getContext('2d');
+
+		// Initialize the test that draws individual images using canvas.
+		function initTest() {
+			frameCount = 0;
+			r.innerHTML += 'testing canvas without atlas...';
+			start = new Date().getTime();
+			drawFrame();
+		}
+
+		// Draw a single frame with all the pregenerated positions.
+		function drawFrame() {
+			ctx.clearRect(0,0,c.width,c.height);
+			for (var j = 0; j < numBrownies; ++j) {
+				ctx.drawImage(brownie_idle[(frameCount+j)%46], brownie_pos[j].x, brownie_pos[j].y);
+			}
+			if (++frameCount < numIterations) {
+				setTimeout(drawFrame,0);
+			} else {
+				ms = new Date().getTime() - start;
+				ctx.clearRect(0,0,c.width,c.height);
+				setTimeout(initAtlasTest, 500);
+			}
+		}
+
+		// Initialize the test that draws atlas images using canvas.
+		function initAtlasTest() {
+			frameCount = 0;
+			r.innerHTML = 'testing canvas with atlas...';
+			start = new Date().getTime();
+			drawAtlasFrame();
+		}
+
+		// Draw a single frame using an atlas.
+		function drawAtlasFrame() {
+			ctx.clearRect(0,0,c.width,c.height);
+			for (var j = 0; j < numBrownies; ++j) {
+				var bi = brownie_atlas.idle[(frameCount+j)%46];
+				var rw = bi.rect[2] - bi.rect[0] + 1;
+				var rh = bi.rect[3] - bi.rect[1] + 1;
+				ctx.drawImage(brownie_atlas.image, bi.rect[0], bi.rect[1], rw, rh, brownie_pos[j].x+bi.offset[0], brownie_pos[j].y+bi.offset[1], rw, rh);
+			}
+			if (++frameCount < numIterations) {
+				setTimeout(drawAtlasFrame,0);
+			} else {
+				ms2 = new Date().getTime() - start;
+				r.innerHTML = ms + 'ms vs ' + ms2 + 'ms. ' + Math.round(((ms - ms2) / ms) * 100) + '% speedup';
+			}
+		}
+
+		// Check if all the images has been loaded and kick off the test.
+		function imageLoaded() {
+			if (--imagesLeft == 0) {
+				initTest();
+			}
+		}
+
+		// Preallocate positions to draw the animations at.
+		brownie_pos = new Array(numBrownies);
+		for (var k = 0; k < numBrownies; ++k) {
+			brownie_pos[k] = { x : 10 + Math.random() * (c.width - 50), y : 10 + Math.random() * (c.height - 80) };
+		}
+
+		// Read the atlas json.
+		var request = new XMLHttpRequest();
+		request.onreadystatechange = function() {
+			if (request.readyState == 1) {
+				request.overrideMimeType('application/json');
+				request.send();
+			} else if (request.readyState == 4) {
+				brownie_atlas = JSON.parse(request.responseText);
+				brownie_atlas.idle = new Array(numAnimFrames);
+				for (var i = 0; i < numAnimFrames; ++i)
+					brownie_atlas.idle[i] = brownie_atlas.images['idle'+i+'-png'];
+				brownie_atlas.image = new Image();
+				brownie_atlas.image.onload = imageLoaded;
+				brownie_atlas.image.src = brownie_atlas.atlas;
+			}
+		};
+		request.open('GET', 'atlas.json', true);
+
+		// Read all the individual images.
+		brownie_idle = new Array(numAnimFrames);
+		for (var i = 0; i < numAnimFrames; ++i) {
+			var img = new Image();
+			img.onload = imageLoaded;
+			img.src = 'brownie/idle' + i + '.png';
+			brownie_idle[i] = img;
+		}
+	</script>
+</html>

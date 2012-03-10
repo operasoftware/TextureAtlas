@@ -1,4 +1,4 @@
-div.brownie_dashleft_8-gif
+div.dashleft7-png
 {
   position: relative;
   padding-left: 19px;
@@ -11,7 +11,7 @@ div.brownie_dashleft_8-gif
   background-clip: content-box;
 }
 
-div.brownie_dashright_8-gif
+div.dashright7-png
 {
   position: relative;
   padding-left: 57px;
@@ -24,7 +24,7 @@ div.brownie_dashright_8-gif
   background-clip: content-box;
 }
 
-div.brownie_dashright_7-gif
+div.dashright6-png
 {
   position: relative;
   padding-left: 12px;
@@ -37,254 +37,332 @@ div.brownie_dashright_7-gif
   background-clip: content-box;
 }
 
-div.brownie_dashleft_7-gif
+div.dashleft6-png
 {
   position: relative;
   padding-left: 82px;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-right: 13px;
   padding-bottom: 0px;
   width: 33px;
-  height: 30px;
-  background: url('atlas.png') 82px -57px no-repeat;
+  height: 31px;
+  background: url('atlas.png') 82px -58px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_dashleft_1-gif
-{
-  position: relative;
-  padding-left: 108px;
-  padding-top: 0px;
-  padding-right: 2px;
-  padding-bottom: 0px;
-  width: 18px;
-  height: 32px;
-  background: url('atlas.png') 108px -89px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_2-gif
-{
-  position: relative;
-  padding-left: 108px;
-  padding-top: 0px;
-  padding-right: 2px;
-  padding-bottom: 0px;
-  width: 18px;
-  height: 32px;
-  background: url('atlas.png') 108px -121px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_3-gif
-{
-  position: relative;
-  padding-left: 109px;
-  padding-top: 0px;
-  padding-right: 2px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') 91px -89px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_4-gif
-{
-  position: relative;
-  padding-left: 109px;
-  padding-top: 0px;
-  padding-right: 2px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') 91px -121px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_5-gif
-{
-  position: relative;
-  padding-left: 109px;
-  padding-top: 0px;
-  padding-right: 2px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') 109px -153px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_6-gif
-{
-  position: relative;
-  padding-left: 108px;
-  padding-top: 0px;
-  padding-right: 3px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') 91px -153px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_1-gif
-{
-  position: relative;
-  padding-left: 3px;
-  padding-top: 0px;
-  padding-right: 109px;
-  padding-bottom: 0px;
-  width: 16px;
-  height: 32px;
-  background: url('atlas.png') 3px -185px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_2-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 0px;
-  padding-right: 109px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') -14px -185px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_3-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 0px;
-  padding-right: 109px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') 2px -217px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_4-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 0px;
-  padding-right: 109px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') -15px -217px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_5-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 0px;
-  padding-right: 109px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') -33px -28px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashright_6-gif
-{
-  position: relative;
-  padding-left: 3px;
-  padding-top: 0px;
-  padding-right: 108px;
-  padding-bottom: 0px;
-  width: 17px;
-  height: 32px;
-  background: url('atlas.png') -32px -60px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_21-gif
+div.idle20-png
 {
   position: relative;
   padding-left: 1px;
   padding-top: 18px;
   padding-right: 6px;
-  padding-bottom: 14px;
+  padding-bottom: 13px;
   width: 25px;
-  height: 32px;
-  background: url('atlas.png') -51px -10px no-repeat;
+  height: 33px;
+  background: url('atlas.png') 1px -72px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_22-gif
+div.idle21-png
 {
   position: relative;
   padding-left: 2px;
-  padding-top: 25px;
+  padding-top: 24px;
   padding-right: 6px;
   padding-bottom: 7px;
   width: 24px;
-  height: 32px;
-  background: url('atlas.png') -75px -3px no-repeat;
+  height: 33px;
+  background: url('atlas.png') 2px -99px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_23-gif
+div.idle22-png
 {
   position: relative;
   padding-left: 3px;
   padding-top: 31px;
-  padding-right: 5px;
-  padding-bottom: 1px;
-  width: 24px;
-  height: 32px;
-  background: url('atlas.png') -98px 3px no-repeat;
+  padding-right: 4px;
+  padding-bottom: 0px;
+  width: 25px;
+  height: 33px;
+  background: url('atlas.png') 3px -125px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_1-gif
+div.dashleft0-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 108px -189px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashleft1-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 108px -221px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashleft2-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 73px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashleft3-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 73px -60px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashleft4-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 73px -92px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashleft5-png
+{
+  position: relative;
+  padding-left: 108px;
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') 73px -124px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright0-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 108px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') -33px -156px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright1-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 108px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') -33px -188px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright2-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 108px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') -33px -220px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright3-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 109px;
+  padding-bottom: 0px;
+  width: 17px;
+  height: 32px;
+  background: url('atlas.png') -16px -189px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright4-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 109px;
+  padding-bottom: 0px;
+  width: 17px;
+  height: 32px;
+  background: url('atlas.png') -16px -221px no-repeat;
+  background-clip: content-box;
+}
+
+div.dashright5-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 0px;
+  padding-right: 108px;
+  padding-bottom: 0px;
+  width: 18px;
+  height: 32px;
+  background: url('atlas.png') -51px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle14-png
 {
   position: relative;
   padding-left: 3px;
-  padding-top: 34px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 33px;
+  width: 21px;
+  height: 31px;
+  background: url('atlas.png') -68px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle23-png
+{
+  position: relative;
+  padding-left: 3px;
+  padding-top: 33px;
   padding-right: 5px;
   padding-bottom: 0px;
   width: 24px;
-  height: 30px;
-  background: url('atlas.png') -122px 6px no-repeat;
+  height: 31px;
+  background: url('atlas.png') -89px 5px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_14-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 0px;
-  padding-right: 8px;
-  padding-bottom: 34px;
-  width: 20px;
-  height: 30px;
-  background: url('atlas.png') -145px -28px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_15-gif
+div.idle44-png
 {
   position: relative;
   padding-left: 3px;
-  padding-top: 1px;
-  padding-right: 9px;
-  padding-bottom: 33px;
-  width: 20px;
-  height: 30px;
-  background: url('atlas.png') -166px -27px no-repeat;
+  padding-top: 30px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+  width: 25px;
+  height: 31px;
+  background: url('atlas.png') -113px 2px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_2-gif
+div.escapeleft11-png
+{
+  position: relative;
+  padding-left: 7px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  width: 17px;
+  height: 30px;
+  background: url('atlas.png') -134px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft12-png
+{
+  position: relative;
+  padding-left: 7px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  width: 17px;
+  height: 30px;
+  background: url('atlas.png') -151px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft16-png
+{
+  position: relative;
+  padding-left: 7px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  width: 20px;
+  height: 30px;
+  background: url('atlas.png') -168px -26px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight11-png
+{
+  position: relative;
+  padding-left: 9px;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  width: 15px;
+  height: 30px;
+  background: url('atlas.png') -186px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight12-png
+{
+  position: relative;
+  padding-left: 8px;
+  padding-top: 0px;
+  padding-right: 7px;
+  padding-bottom: 2px;
+  width: 17px;
+  height: 30px;
+  background: url('atlas.png') -202px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle0-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 34px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  width: 25px;
+  height: 30px;
+  background: url('atlas.png') -225px 6px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle1-png
 {
   position: relative;
   padding-left: 3px;
@@ -293,11 +371,24 @@ div.brownie_idle_2-gif
   padding-bottom: 0px;
   width: 25px;
   height: 30px;
-  background: url('atlas.png') -186px 6px no-repeat;
+  background: url('atlas.png') -50px -26px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_20-gif
+div.idle13-png
+{
+  position: relative;
+  padding-left: 4px;
+  padding-top: 0px;
+  padding-right: 7px;
+  padding-bottom: 34px;
+  width: 21px;
+  height: 30px;
+  background: url('atlas.png') -248px -28px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle19-png
 {
   position: relative;
   padding-left: 0px;
@@ -306,50 +397,50 @@ div.brownie_idle_20-gif
   padding-bottom: 21px;
   width: 27px;
   height: 30px;
-  background: url('atlas.png') -214px -15px no-repeat;
+  background: url('atlas.png') -78px -47px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_24-gif
+div.idle30-png
 {
   position: relative;
-  padding-left: 3px;
-  padding-top: 34px;
+  padding-left: 7px;
+  padding-top: 7px;
   padding-right: 5px;
-  padding-bottom: 0px;
-  width: 24px;
+  padding-bottom: 27px;
+  width: 20px;
   height: 30px;
-  background: url('atlas.png') -238px 6px no-repeat;
+  background: url('atlas.png') -46px -83px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_32-gif
+div.idle31-png
 {
   position: relative;
-  padding-left: 8px;
+  padding-left: 7px;
   padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 29px;
-  width: 19px;
+  width: 20px;
   height: 30px;
-  background: url('atlas.png') -44px -55px no-repeat;
+  background: url('atlas.png') -46px -115px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_43-gif
+div.idle42-png
 {
   position: relative;
-  padding-left: 6px;
+  padding-left: 5px;
   padding-top: 17px;
   padding-right: 2px;
   padding-bottom: 17px;
-  width: 24px;
+  width: 25px;
   height: 30px;
-  background: url('atlas.png') -65px -43px no-repeat;
+  background: url('atlas.png') -48px -133px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_44-gif
+div.idle43-png
 {
   position: relative;
   padding-left: 5px;
@@ -358,50 +449,63 @@ div.brownie_idle_44-gif
   padding-bottom: 10px;
   width: 24px;
   height: 30px;
-  background: url('atlas.png') -90px -36px no-repeat;
+  background: url('atlas.png') -48px -156px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_45-gif
+div.idle45-png
 {
   position: relative;
-  padding-left: 3px;
-  padding-top: 30px;
-  padding-right: 4px;
-  padding-bottom: 4px;
-  width: 25px;
-  height: 30px;
-  background: url('atlas.png') -116px -30px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_46-gif
-{
-  position: relative;
-  padding-left: 3px;
+  padding-left: 2px;
   padding-top: 34px;
   padding-right: 5px;
   padding-bottom: 0px;
-  width: 24px;
+  width: 25px;
   height: 30px;
-  background: url('atlas.png') -141px -26px no-repeat;
+  background: url('atlas.png') -51px -176px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_9-gif
+div.idle7-png
+{
+  position: relative;
+  padding-left: 3px;
+  padding-top: 9px;
+  padding-right: 6px;
+  padding-bottom: 25px;
+  width: 23px;
+  height: 30px;
+  background: url('atlas.png') -50px -231px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle8-png
 {
   position: relative;
   padding-left: 4px;
   padding-top: 6px;
-  padding-right: 8px;
+  padding-right: 7px;
   padding-bottom: 28px;
-  width: 20px;
+  width: 21px;
   height: 30px;
-  background: url('atlas.png') -164px -54px no-repeat;
+  background: url('atlas.png') -101px -54px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_11-gif
+div.dashleft8-png
+{
+  position: relative;
+  padding-left: 0px;
+  padding-top: 3px;
+  padding-right: 102px;
+  padding-bottom: 0px;
+  width: 26px;
+  height: 29px;
+  background: url('atlas.png') -126px -57px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft10-png
 {
   position: relative;
   padding-left: 9px;
@@ -410,42 +514,29 @@ div.brownie_escapeleft_11-gif
   padding-bottom: 2px;
   width: 16px;
   height: 29px;
-  background: url('atlas.png') -26px -91px no-repeat;
+  background: url('atlas.png') -143px -59px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_13-gif
+div.escapeleft13-png
 {
   position: relative;
-  padding-left: 7px;
+  padding-left: 6px;
   padding-top: 1px;
-  padding-right: 8px;
+  padding-right: 7px;
   padding-bottom: 2px;
-  width: 17px;
-  height: 29px;
-  background: url('atlas.png') -28px -120px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_16-gif
-{
-  position: relative;
-  padding-left: 7px;
-  padding-top: 2px;
-  padding-right: 6px;
-  padding-bottom: 1px;
   width: 19px;
   height: 29px;
-  background: url('atlas.png') -45px -88px no-repeat;
+  background: url('atlas.png') -162px -59px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_17-gif
+div.escapeleft15-png
 {
   position: relative;
-  padding-left: 7px;
+  padding-left: 6px;
   padding-top: 2px;
-  padding-right: 5px;
+  padding-right: 6px;
   padding-bottom: 1px;
   width: 20px;
   height: 29px;
@@ -453,7 +544,7 @@ div.brownie_escapeleft_17-gif
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_18-gif
+div.escapeleft17-png
 {
   position: relative;
   padding-left: 7px;
@@ -462,24 +553,24 @@ div.brownie_escapeleft_18-gif
   padding-bottom: 0px;
   width: 21px;
   height: 29px;
-  background: url('atlas.png') -201px -57px no-repeat;
+  background: url('atlas.png') -200px -57px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_19-gif
+div.escapeleft18-png
 {
   position: relative;
-  padding-left: 8px;
+  padding-left: 7px;
   padding-top: 3px;
-  padding-right: 3px;
+  padding-right: 2px;
   padding-bottom: 0px;
-  width: 21px;
+  width: 23px;
   height: 29px;
   background: url('atlas.png') -221px -57px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_20-gif
+div.escapeleft19-png
 {
   position: relative;
   padding-left: 8px;
@@ -488,11 +579,24 @@ div.brownie_escapeleft_20-gif
   padding-bottom: 0px;
   width: 22px;
   height: 29px;
-  background: url('atlas.png') -63px -87px no-repeat;
+  background: url('atlas.png') -243px -57px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_11-gif
+div.escapeleft9-png
+{
+  position: relative;
+  padding-left: 9px;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  width: 19px;
+  height: 29px;
+  background: url('atlas.png') -69px -88px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight10-png
 {
   position: relative;
   padding-left: 7px;
@@ -501,37 +605,37 @@ div.brownie_escaperight_11-gif
   padding-bottom: 2px;
   width: 16px;
   height: 29px;
-  background: url('atlas.png') -28px -149px no-repeat;
+  background: url('atlas.png') -71px -118px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_13-gif
+div.escaperight13-png
 {
   position: relative;
-  padding-left: 8px;
+  padding-left: 7px;
   padding-top: 1px;
-  padding-right: 7px;
+  padding-right: 6px;
   padding-bottom: 2px;
-  width: 17px;
+  width: 19px;
   height: 29px;
-  background: url('atlas.png') -27px -178px no-repeat;
+  background: url('atlas.png') -71px -147px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_16-gif
+div.escaperight15-png
 {
   position: relative;
   padding-left: 6px;
   padding-top: 2px;
-  padding-right: 7px;
+  padding-right: 6px;
   padding-bottom: 1px;
-  width: 19px;
+  width: 20px;
   height: 29px;
-  background: url('atlas.png') -46px -117px no-repeat;
+  background: url('atlas.png') -91px -88px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_17-gif
+div.escaperight16-png
 {
   position: relative;
   padding-left: 5px;
@@ -540,11 +644,11 @@ div.brownie_escaperight_17-gif
   padding-bottom: 1px;
   width: 20px;
   height: 29px;
-  background: url('atlas.png') -245px -58px no-repeat;
+  background: url('atlas.png') -92px -117px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_18-gif
+div.escaperight17-png
 {
   position: relative;
   padding-left: 4px;
@@ -553,24 +657,24 @@ div.brownie_escaperight_18-gif
   padding-bottom: 0px;
   width: 21px;
   height: 29px;
-  background: url('atlas.png') -67px -116px no-repeat;
+  background: url('atlas.png') -113px -87px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_19-gif
+div.escaperight18-png
 {
   position: relative;
   padding-left: 3px;
   padding-top: 3px;
-  padding-right: 8px;
+  padding-right: 7px;
   padding-bottom: 0px;
-  width: 21px;
+  width: 22px;
   height: 29px;
-  background: url('atlas.png') -68px -145px no-repeat;
+  background: url('atlas.png') -135px -87px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_20-gif
+div.escaperight19-png
 {
   position: relative;
   padding-left: 2px;
@@ -579,24 +683,76 @@ div.brownie_escaperight_20-gif
   padding-bottom: 0px;
   width: 22px;
   height: 29px;
-  background: url('atlas.png') -69px -174px no-repeat;
+  background: url('atlas.png') -158px -87px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_41-gif
+div.idle27-png
 {
   position: relative;
-  padding-left: 6px;
+  padding-left: 4px;
+  padding-top: 25px;
+  padding-right: 3px;
+  padding-bottom: 10px;
+  width: 25px;
+  height: 29px;
+  background: url('atlas.png') -178px -65px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle28-png
+{
+  position: relative;
+  padding-left: 7px;
+  padding-top: 18px;
+  padding-right: 4px;
+  padding-bottom: 17px;
+  width: 21px;
+  height: 29px;
+  background: url('atlas.png') -200px -72px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle29-png
+{
+  position: relative;
+  padding-left: 8px;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 23px;
+  width: 19px;
+  height: 29px;
+  background: url('atlas.png') -70px -165px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle32-png
+{
+  position: relative;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-right: 4px;
+  padding-bottom: 32px;
+  width: 20px;
+  height: 29px;
+  background: url('atlas.png') -89px -145px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle40-png
+{
+  position: relative;
+  padding-left: 5px;
   padding-top: 6px;
   padding-right: 0px;
   padding-bottom: 29px;
-  width: 26px;
+  width: 27px;
   height: 29px;
-  background: url('atlas.png') -87px -84px no-repeat;
+  background: url('atlas.png') -223px -84px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_42-gif
+div.idle41-png
 {
   position: relative;
   padding-left: 5px;
@@ -605,37 +761,24 @@ div.brownie_idle_42-gif
   padding-bottom: 24px;
   width: 26px;
   height: 29px;
-  background: url('atlas.png') -88px -108px no-repeat;
+  background: url('atlas.png') -112px -108px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_8-gif
+div.idle9-png
 {
   position: relative;
-  padding-left: 3px;
-  padding-top: 9px;
-  padding-right: 6px;
-  padding-bottom: 26px;
-  width: 23px;
-  height: 29px;
-  background: url('atlas.png') -90px -139px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_dashleft_9-gif
-{
-  position: relative;
-  padding-left: 0px;
+  padding-left: 1px;
   padding-top: 4px;
-  padding-right: 102px;
-  padding-bottom: 0px;
-  width: 26px;
-  height: 28px;
-  background: url('atlas.png') -104px 4px no-repeat;
+  padding-right: 9px;
+  padding-bottom: 31px;
+  width: 22px;
+  height: 29px;
+  background: url('atlas.png') -116px -144px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_dashright_9-gif
+div.dashright8-png
 {
   position: relative;
   padding-left: 102px;
@@ -644,167 +787,76 @@ div.brownie_dashright_9-gif
   padding-bottom: 0px;
   width: 26px;
   height: 28px;
-  background: url('atlas.png') -28px 4px no-repeat;
+  background: url('atlas.png') -2px 4px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_12-gif
+div.escapeleft14-png
 {
   position: relative;
-  padding-left: 8px;
-  padding-top: 1px;
-  padding-right: 9px;
-  padding-bottom: 3px;
-  width: 15px;
-  height: 28px;
-  background: url('atlas.png') -148px 1px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_14-gif
-{
-  position: relative;
-  padding-left: 7px;
-  padding-top: 1px;
-  padding-right: 8px;
-  padding-bottom: 3px;
-  width: 17px;
-  height: 28px;
-  background: url('atlas.png') -164px 1px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_15-gif
-{
-  position: relative;
-  padding-left: 7px;
+  padding-left: 6px;
   padding-top: 2px;
-  padding-right: 7px;
+  padding-right: 6px;
   padding-bottom: 2px;
-  width: 18px;
-  height: 28px;
-  background: url('atlas.png') -181px 2px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_12-gif
-{
-  position: relative;
-  padding-left: 9px;
-  padding-top: 1px;
-  padding-right: 8px;
-  padding-bottom: 3px;
-  width: 15px;
-  height: 28px;
-  background: url('atlas.png') -197px 1px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_14-gif
-{
-  position: relative;
-  padding-left: 8px;
-  padding-top: 1px;
-  padding-right: 7px;
-  padding-bottom: 3px;
-  width: 17px;
-  height: 28px;
-  background: url('atlas.png') -213px 1px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_15-gif
-{
-  position: relative;
-  padding-left: 7px;
-  padding-top: 2px;
-  padding-right: 7px;
-  padding-bottom: 2px;
-  width: 18px;
-  height: 28px;
-  background: url('atlas.png') -231px 2px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_10-gif
-{
-  position: relative;
-  padding-left: 1px;
-  padding-top: 5px;
-  padding-right: 9px;
-  padding-bottom: 31px;
-  width: 22px;
-  height: 28px;
-  background: url('atlas.png') -70px -201px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_28-gif
-{
-  position: relative;
-  padding-left: 5px;
-  padding-top: 25px;
-  padding-right: 3px;
-  padding-bottom: 11px;
-  width: 24px;
-  height: 28px;
-  background: url('atlas.png') -88px -152px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_29-gif
-{
-  position: relative;
-  padding-left: 7px;
-  padding-top: 18px;
-  padding-right: 4px;
-  padding-bottom: 18px;
-  width: 21px;
-  height: 28px;
-  background: url('atlas.png') -64px -216px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_30-gif
-{
-  position: relative;
-  padding-left: 8px;
-  padding-top: 12px;
-  padding-right: 5px;
-  padding-bottom: 24px;
-  width: 19px;
-  height: 28px;
-  background: url('atlas.png') -44px -136px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_31-gif
-{
-  position: relative;
-  padding-left: 8px;
-  padding-top: 8px;
-  padding-right: 5px;
-  padding-bottom: 28px;
-  width: 19px;
-  height: 28px;
-  background: url('atlas.png') -44px -168px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_33-gif
-{
-  position: relative;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 32px;
   width: 20px;
   height: 28px;
-  background: url('atlas.png') -85px -201px no-repeat;
+  background: url('atlas.png') -124px 2px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_5-gif
+div.escaperight0-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+  width: 22px;
+  height: 28px;
+  background: url('atlas.png') -148px 3px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight14-png
+{
+  position: relative;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  width: 20px;
+  height: 28px;
+  background: url('atlas.png') -166px 2px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight8-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  width: 22px;
+  height: 28px;
+  background: url('atlas.png') -190px 4px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle18-png
+{
+  position: relative;
+  padding-left: 0px;
+  padding-top: 9px;
+  padding-right: 5px;
+  padding-bottom: 27px;
+  width: 27px;
+  height: 28px;
+  background: url('atlas.png') -214px 9px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle4-png
 {
   position: relative;
   padding-left: 4px;
@@ -813,24 +865,24 @@ div.brownie_idle_5-gif
   padding-bottom: 7px;
   width: 24px;
   height: 28px;
-  background: url('atlas.png') -89px -204px no-repeat;
+  background: url('atlas.png') -237px 29px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_6-gif
+div.idle5-png
 {
   position: relative;
-  padding-left: 4px;
+  padding-left: 3px;
   padding-top: 22px;
   padding-right: 4px;
   padding-bottom: 14px;
-  width: 24px;
+  width: 25px;
   height: 28px;
-  background: url('atlas.png') -115px -68px no-repeat;
+  background: url('atlas.png') -114px -155px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_7-gif
+div.idle6-png
 {
   position: relative;
   padding-left: 4px;
@@ -839,102 +891,102 @@ div.brownie_idle_7-gif
   padding-bottom: 21px;
   width: 24px;
   height: 28px;
-  background: url('atlas.png') -139px -75px no-repeat;
+  background: url('atlas.png') -113px -190px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_1-gif
+div.escapeleft0-png
+{
+  position: relative;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-right: 2px;
+  padding-bottom: 1px;
+  width: 22px;
+  height: 27px;
+  background: url('atlas.png') -109px -229px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft7-png
 {
   position: relative;
   padding-left: 9px;
   padding-top: 4px;
-  padding-right: 2px;
-  padding-bottom: 1px;
-  width: 21px;
-  height: 27px;
-  background: url('atlas.png') -158px -86px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_10-gif
-{
-  position: relative;
-  padding-left: 9px;
-  padding-top: 3px;
   padding-right: 4px;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
   width: 19px;
   height: 27px;
-  background: url('atlas.png') -43px -201px no-repeat;
+  background: url('atlas.png') -69px -202px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_9-gif
+div.escapeleft8-png
 {
   position: relative;
-  padding-left: 9px;
+  padding-left: 8px;
   padding-top: 4px;
   padding-right: 2px;
   padding-bottom: 1px;
-  width: 21px;
+  width: 22px;
   height: 27px;
-  background: url('atlas.png') -179px -86px no-repeat;
+  background: url('atlas.png') -135px -115px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_1-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 4px;
-  padding-right: 9px;
-  padding-bottom: 1px;
-  width: 21px;
-  height: 27px;
-  background: url('atlas.png') -207px -86px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_10-gif
+div.escaperight7-png
 {
   position: relative;
   padding-left: 4px;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-bottom: 0px;
+  width: 19px;
+  height: 27px;
+  background: url('atlas.png') -74px -228px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight9-png
+{
+  position: relative;
+  padding-left: 3px;
   padding-top: 3px;
   padding-right: 9px;
   padding-bottom: 2px;
-  width: 19px;
+  width: 20px;
   height: 27px;
-  background: url('atlas.png') -48px -228px no-repeat;
+  background: url('atlas.png') -94px -174px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_9-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 4px;
-  padding-right: 9px;
-  padding-bottom: 1px;
-  width: 21px;
-  height: 27px;
-  background: url('atlas.png') -228px -86px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_13-gif
+div.idle12-png
 {
   position: relative;
   padding-left: 4px;
   padding-top: 1px;
-  padding-right: 5px;
+  padding-right: 4px;
   padding-bottom: 36px;
-  width: 23px;
+  width: 24px;
   height: 27px;
-  background: url('atlas.png') -115px -117px no-repeat;
+  background: url('atlas.png') -161px -118px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_17-gif
+div.idle15-png
+{
+  position: relative;
+  padding-left: 0px;
+  padding-top: 3px;
+  padding-right: 5px;
+  padding-bottom: 35px;
+  width: 27px;
+  height: 26px;
+  background: url('atlas.png') -189px -116px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle16-png
 {
   position: relative;
   padding-left: 0px;
@@ -943,50 +995,50 @@ div.brownie_idle_17-gif
   padding-bottom: 34px;
   width: 27px;
   height: 26px;
-  background: url('atlas.png') -142px -114px no-repeat;
+  background: url('atlas.png') -216px -115px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_18-gif
+div.idle17-png
 {
   position: relative;
   padding-left: 0px;
-  padding-top: 6px;
+  padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 32px;
   width: 27px;
-  height: 26px;
-  background: url('atlas.png') -169px -112px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_19-gif
-{
-  position: relative;
-  padding-left: 0px;
-  padding-top: 9px;
-  padding-right: 5px;
-  padding-bottom: 28px;
-  width: 27px;
   height: 27px;
-  background: url('atlas.png') -142px -135px no-repeat;
+  background: url('atlas.png') -243px -114px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_27-gif
+div.idle24-png
 {
   position: relative;
-  padding-left: 5px;
+  padding-left: 3px;
+  padding-top: 37px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  width: 24px;
+  height: 27px;
+  background: url('atlas.png') -140px -109px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle26-png
+{
+  position: relative;
+  padding-left: 4px;
   padding-top: 33px;
   padding-right: 4px;
   padding-bottom: 4px;
-  width: 23px;
+  width: 24px;
   height: 27px;
-  background: url('atlas.png') -114px -112px no-repeat;
+  background: url('atlas.png') -139px -140px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_4-gif
+div.idle3-png
 {
   position: relative;
   padding-left: 4px;
@@ -995,219 +1047,206 @@ div.brownie_idle_4-gif
   padding-bottom: 1px;
   width: 23px;
   height: 27px;
-  background: url('atlas.png') -115px -136px no-repeat;
+  background: url('atlas.png') -139px -164px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_2-gif
-{
-  position: relative;
-  padding-left: 5px;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 2px;
-  width: 23px;
-  height: 26px;
-  background: url('atlas.png') -114px -195px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_7-gif
-{
-  position: relative;
-  padding-left: 7px;
-  padding-top: 5px;
-  padding-right: 4px;
-  padding-bottom: 1px;
-  width: 21px;
-  height: 26px;
-  background: url('atlas.png') -112px -220px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_8-gif
-{
-  position: relative;
-  padding-left: 9px;
-  padding-top: 5px;
-  padding-right: 4px;
-  padding-bottom: 1px;
-  width: 19px;
-  height: 26px;
-  background: url('atlas.png') -242px -85px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_2-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 4px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  width: 23px;
-  height: 26px;
-  background: url('atlas.png') -192px -114px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_7-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 5px;
-  padding-right: 7px;
-  padding-bottom: 1px;
-  width: 21px;
-  height: 26px;
-  background: url('atlas.png') -215px -113px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_8-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 5px;
-  padding-right: 9px;
-  padding-bottom: 1px;
-  width: 19px;
-  height: 26px;
-  background: url('atlas.png') -236px -113px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_11-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 4px;
-  padding-right: 5px;
-  padding-bottom: 34px;
-  width: 25px;
-  height: 26px;
-  background: url('atlas.png') -140px -167px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_12-gif
-{
-  position: relative;
-  padding-left: 2px;
-  padding-top: 3px;
-  padding-right: 4px;
-  padding-bottom: 36px;
-  width: 26px;
-  height: 25px;
-  background: url('atlas.png') -140px -194px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_16-gif
-{
-  position: relative;
-  padding-left: 1px;
-  padding-top: 3px;
-  padding-right: 5px;
-  padding-bottom: 35px;
-  width: 26px;
-  height: 26px;
-  background: url('atlas.png') -141px -219px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_25-gif
-{
-  position: relative;
-  padding-left: 3px;
-  padding-top: 38px;
-  padding-right: 5px;
-  padding-bottom: 0px;
-  width: 24px;
-  height: 26px;
-  background: url('atlas.png') -166px -106px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_26-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 38px;
-  padding-right: 4px;
-  padding-bottom: 0px;
-  width: 24px;
-  height: 26px;
-  background: url('atlas.png') -189px -106px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_38-gif
+div.idle39-png
 {
   position: relative;
   padding-left: 6px;
   padding-top: 4px;
-  padding-right: 1px;
-  padding-bottom: 34px;
-  width: 25px;
-  height: 26px;
-  background: url('atlas.png') -211px -140px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_39-gif
-{
-  position: relative;
-  padding-left: 6px;
-  padding-top: 4px;
-  padding-right: 1px;
-  padding-bottom: 34px;
-  width: 25px;
-  height: 26px;
-  background: url('atlas.png') -236px -140px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_40-gif
-{
-  position: relative;
-  padding-left: 6px;
-  padding-top: 5px;
   padding-right: 0px;
   padding-bottom: 33px;
   width: 26px;
-  height: 26px;
-  background: url('atlas.png') -163px -165px no-repeat;
+  height: 27px;
+  background: url('atlas.png') -161px -142px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_5-gif
+div.escapeleft1-png
+{
+  position: relative;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  width: 23px;
+  height: 26px;
+  background: url('atlas.png') -138px -223px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft4-png
 {
   position: relative;
   padding-left: 1px;
   padding-top: 5px;
-  padding-right: 6px;
+  padding-right: 5px;
   padding-bottom: 3px;
-  width: 25px;
+  width: 26px;
   height: 24px;
-  background: url('atlas.png') -168px -191px no-repeat;
+  background: url('atlas.png') -192px -141px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_6-gif
+div.escapeleft6-png
+{
+  position: relative;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  width: 21px;
+  height: 26px;
+  background: url('atlas.png') -248px -85px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight1-png
+{
+  position: relative;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  width: 23px;
+  height: 26px;
+  background: url('atlas.png') -215px -142px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight6-png
+{
+  position: relative;
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-right: 7px;
+  padding-bottom: 1px;
+  width: 22px;
+  height: 26px;
+  background: url('atlas.png') -239px -141px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle10-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-right: 5px;
+  padding-bottom: 34px;
+  width: 25px;
+  height: 26px;
+  background: url('atlas.png') -165px -169px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle11-png
+{
+  position: relative;
+  padding-left: 2px;
+  padding-top: 3px;
+  padding-right: 4px;
+  padding-bottom: 35px;
+  width: 26px;
+  height: 26px;
+  background: url('atlas.png') -190px -170px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle2-png
+{
+  position: relative;
+  padding-left: 4px;
+  padding-top: 38px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  width: 23px;
+  height: 26px;
+  background: url('atlas.png') -163px -161px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle25-png
+{
+  position: relative;
+  padding-left: 4px;
+  padding-top: 38px;
+  padding-right: 4px;
+  padding-bottom: 0px;
+  width: 24px;
+  height: 26px;
+  background: url('atlas.png') -163px -187px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle37-png
+{
+  position: relative;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-right: 1px;
+  padding-bottom: 34px;
+  width: 26px;
+  height: 26px;
+  background: url('atlas.png') -213px -169px no-repeat;
+  background-clip: content-box;
+}
+
+div.idle38-png
+{
+  position: relative;
+  padding-left: 6px;
+  padding-top: 4px;
+  padding-right: 1px;
+  padding-bottom: 34px;
+  width: 25px;
+  height: 26px;
+  background: url('atlas.png') -238px -169px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft2-png
+{
+  position: relative;
+  padding-left: 3px;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  width: 23px;
+  height: 25px;
+  background: url('atlas.png') -164px -247px no-repeat;
+  background-clip: content-box;
+}
+
+div.escapeleft5-png
 {
   position: relative;
   padding-left: 5px;
   padding-top: 5px;
-  padding-right: 3px;
+  padding-right: 2px;
   padding-bottom: 2px;
-  width: 24px;
+  width: 25px;
   height: 25px;
-  background: url('atlas.png') -164px -215px no-repeat;
+  background: url('atlas.png') -187px -194px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_5-gif
+div.escaperight2-png
+{
+  position: relative;
+  padding-left: 6px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+  width: 22px;
+  height: 25px;
+  background: url('atlas.png') -186px -220px no-repeat;
+  background-clip: content-box;
+}
+
+div.escaperight4-png
 {
   position: relative;
   padding-left: 6px;
@@ -1216,50 +1255,37 @@ div.brownie_escaperight_5-gif
   padding-bottom: 3px;
   width: 25px;
   height: 24px;
-  background: url('atlas.png') -163px -240px no-repeat;
+  background: url('atlas.png') -186px -244px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_6-gif
+div.escaperight5-png
 {
   position: relative;
-  padding-left: 3px;
+  padding-left: 2px;
   padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 2px;
-  width: 24px;
+  width: 25px;
   height: 25px;
-  background: url('atlas.png') -192px -165px no-repeat;
+  background: url('atlas.png') -215px -194px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_3-gif
+div.idle33-png
 {
   position: relative;
-  padding-left: 4px;
-  padding-top: 39px;
-  padding-right: 5px;
-  padding-bottom: 0px;
-  width: 23px;
-  height: 25px;
-  background: url('atlas.png') -215px -131px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_idle_34-gif
-{
-  position: relative;
-  padding-left: 7px;
+  padding-left: 6px;
   padding-top: 4px;
   padding-right: 1px;
   padding-bottom: 35px;
-  width: 24px;
+  width: 25px;
   height: 25px;
-  background: url('atlas.png') -235px -166px no-repeat;
+  background: url('atlas.png') -236px -195px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_35-gif
+div.idle34-png
 {
   position: relative;
   padding-left: 7px;
@@ -1268,11 +1294,11 @@ div.brownie_idle_35-gif
   padding-bottom: 36px;
   width: 25px;
   height: 24px;
-  background: url('atlas.png') -188px -191px no-repeat;
+  background: url('atlas.png') -210px -220px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_36-gif
+div.idle35-png
 {
   position: relative;
   padding-left: 7px;
@@ -1281,50 +1307,24 @@ div.brownie_idle_36-gif
   padding-bottom: 36px;
   width: 25px;
   height: 23px;
-  background: url('atlas.png') -213px -190px no-repeat;
+  background: url('atlas.png') 7px -248px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escapeleft_3-gif
-{
-  position: relative;
-  padding-left: 4px;
-  padding-top: 5px;
-  padding-right: 6px;
-  padding-bottom: 4px;
-  width: 22px;
-  height: 23px;
-  background: url('atlas.png') -241px -190px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escapeleft_4-gif
+div.escapeleft3-png
 {
   position: relative;
   padding-left: 3px;
   padding-top: 5px;
-  padding-right: 6px;
+  padding-right: 5px;
   padding-bottom: 4px;
-  width: 23px;
+  width: 24px;
   height: 23px;
-  background: url('atlas.png') -192px -214px no-repeat;
+  background: url('atlas.png') -140px -248px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_escaperight_3-gif
-{
-  position: relative;
-  padding-left: 6px;
-  padding-top: 5px;
-  padding-right: 4px;
-  padding-bottom: 4px;
-  width: 22px;
-  height: 23px;
-  background: url('atlas.png') -189px -237px no-repeat;
-  background-clip: content-box;
-}
-
-div.brownie_escaperight_4-gif
+div.escaperight3-png
 {
   position: relative;
   padding-left: 6px;
@@ -1333,11 +1333,11 @@ div.brownie_escaperight_4-gif
   padding-bottom: 4px;
   width: 23px;
   height: 23px;
-  background: url('atlas.png') -212px -214px no-repeat;
+  background: url('atlas.png') -211px -243px no-repeat;
   background-clip: content-box;
 }
 
-div.brownie_idle_37-gif
+div.idle36-png
 {
   position: relative;
   padding-left: 10px;
@@ -1346,7 +1346,7 @@ div.brownie_idle_37-gif
   padding-bottom: 35px;
   width: 22px;
   height: 23px;
-  background: url('atlas.png') -208px -236px no-repeat;
+  background: url('atlas.png') -232px -218px no-repeat;
   background-clip: content-box;
 }
 
